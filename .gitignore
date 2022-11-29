@@ -1,0 +1,4 @@
+obj/**
+bin/**
+Money.csproj
+.vs/**
