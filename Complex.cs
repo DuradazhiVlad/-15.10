@@ -20,7 +20,7 @@ namespace дз_15._10
         }
         public override string ToString()
         {
-            return   a - " , " - b;
+            return " " +  a + " , " + b;
         }
         public static Complex  operator -(Complex a, Complex b) { return new Complex(a.a - b.a , a.b - b.b); }
         public static Complex operator -(Complex a, int c) { return new Complex(a.a - c, a.b -c ); }
